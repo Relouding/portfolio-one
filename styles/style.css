@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+/* Container */
+.container {
+    /* Margin/Padding */
+    margin: auto;
+    padding: auto;
+
+    /* Size */
+    max-width: 100%;
+    width: 1000px;
+    height: auto;
+
+    /* Placing */
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Assignment(s) */
+.assignment {
+    /* Color */
+    background-color: #F0F0F0;
+
+    /* Border */
+    border-radius: 2px;
+    
+    /* Margin/Padding */
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    margin-top: 20px;
+
+    /* Size */
+    max-width: 92%;
+    width: 800px;
+    height: auto;
+
+    /* Placing */
+    overflow-wrap: break-word;
+    text-align: justify;
+}
+
+/* Font style */
+h1 {
+    /* Font */
+    font-family: arial;
+    font-size: 30px;
+}
+
+p {
+    /* Font */
+    font-family: arial;
+    font-size: 16px;
+}
+
+a {
+    /* Margin/Padding */
+    margin-right: 20px;
+
+    /* Font */
+    font-family: arial;
+    font-size: 16px;
+}
